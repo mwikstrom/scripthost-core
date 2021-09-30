@@ -1,7 +1,7 @@
 {
   "name": "scripthost-core",
   "version": "0.2.3",
-  "description": "Sandboxed and observable Javascript host",
+  "description": "The scripthost message protocol and core utilities",
   "main": "./dist/scripthost-core.js",
   "typings": "./dist/scripthost-core.d.ts",
   "files": [
