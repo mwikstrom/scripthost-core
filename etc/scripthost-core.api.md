@@ -16,6 +16,7 @@ export interface EvaluateScriptRequest extends GenericMessage<"eval"> {
     instanceId?: string;
     script: string;
     track?: boolean;
+    vars?: Record<string, ScriptValue>;
 }
 
 // @public

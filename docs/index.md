@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [scripthost-core](./scripthost-core.md) | Sandboxed and observable Javascript host |
+|  [scripthost-core](./scripthost-core.md) | The scripthost message protocol and core utilities |
 

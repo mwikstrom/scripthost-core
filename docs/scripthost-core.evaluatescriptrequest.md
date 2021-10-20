@@ -21,4 +21,5 @@ export interface EvaluateScriptRequest extends GenericMessage<"eval">
 |  [instanceId?](./scripthost-core.evaluatescriptrequest.instanceid.md) | string | <i>(Optional)</i> Optionally identifies the instance in which the script shall be evaluated |
 |  [script](./scripthost-core.evaluatescriptrequest.script.md) | string | The script that shall be evaluated |
 |  [track?](./scripthost-core.evaluatescriptrequest.track.md) | boolean | <i>(Optional)</i> Optionally specifies that variables that are accessed during script evaluation shall be tracked. |
+|  [vars?](./scripthost-core.evaluatescriptrequest.vars.md) | Record&lt;string, [ScriptValue](./scripthost-core.scriptvalue.md)<!-- -->&gt; | <i>(Optional)</i> Optionally specifies variables that shall be made available to the script |
 

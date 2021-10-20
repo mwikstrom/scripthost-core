@@ -4,7 +4,7 @@
 
 ## scripthost-core package
 
-Sandboxed and observable Javascript host
+The scripthost message protocol and core utilities
 
 ## Functions
 

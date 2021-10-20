@@ -1,5 +1,6 @@
 import { GenericMessage, isGenericMessage } from "./GenericMessage";
 import { isString } from "./internal/guard";
+import { ScriptValue } from "./ScriptValue";
 
 /**
  * The message that is sent to request script evaluation
@@ -32,6 +33,11 @@ export interface EvaluateScriptRequest extends GenericMessage<"eval"> {
      * shall be tracked.
      */
     track?: boolean;
+
+    /**
+     * Optionally specifies variables that shall be made available to the script
+     */
+    vars?: Record<string, ScriptValue>;
 }
 
 /**
