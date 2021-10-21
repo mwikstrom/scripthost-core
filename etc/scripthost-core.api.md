@@ -21,6 +21,7 @@ export interface EvaluateScriptRequest extends GenericMessage<"eval"> {
 
 // @public
 export interface EvaluateScriptResponse extends GenericResponse<"result"> {
+    refresh?: ScriptValue;
     result: ScriptValue;
     vars?: Map<string, TrackedVariable>;
 }

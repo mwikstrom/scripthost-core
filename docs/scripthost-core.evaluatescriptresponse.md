@@ -17,6 +17,7 @@ export interface EvaluateScriptResponse extends GenericResponse<"result">
 
 |  Property | Type | Description |
 |  --- | --- | --- |
+|  [refresh?](./scripthost-core.evaluatescriptresponse.refresh.md) | [ScriptValue](./scripthost-core.scriptvalue.md) | <i>(Optional)</i> The value assigned to <code>this.refresh</code> during script evaluation |
 |  [result](./scripthost-core.evaluatescriptresponse.result.md) | [ScriptValue](./scripthost-core.scriptvalue.md) | The result value |
 |  [vars?](./scripthost-core.evaluatescriptresponse.vars.md) | Map&lt;string, [TrackedVariable](./scripthost-core.trackedvariable.md)<!-- -->&gt; | <i>(Optional)</i> Optionally includes the global variables that were accessed during script evaluation |
 
