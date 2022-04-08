@@ -12,7 +12,7 @@ export interface EvaluateScriptResponse extends GenericResponse<"result">{
     /**
      * Optionally includes the global variables that were accessed during script evaluation.
      * 
-     * This property is omitted unless the script is evaluated with the `track` option.
+     * This property may be omitted unless the script is evaluated with the `track` option
      */
     vars?: Map<string, TrackedVariable>;
 

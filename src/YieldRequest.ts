@@ -15,7 +15,7 @@ export interface YieldRequest extends GenericMessage<"yield"> {
      * The values of the provided map represents the version of the global scope that became
      * current after the corresponding variable was last written.
      * 
-     * This property is omitted unless the script is evaluated with the `track` option.
+     * This property may be omitted unless the script is evaluated with the `track` option.
      */
      written?: Map<string, number>
 }
