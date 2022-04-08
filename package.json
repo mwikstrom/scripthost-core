@@ -1,6 +1,6 @@
 {
   "name": "scripthost-core",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "The scripthost message protocol and core utilities",
   "main": "./dist/scripthost-core.js",
   "typings": "./dist/scripthost-core.d.ts",
