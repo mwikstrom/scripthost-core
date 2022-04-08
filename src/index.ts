@@ -16,3 +16,5 @@ export * from "./EvaluateScriptRequest";
 export * from "./EvaluateScriptResponse";
 export * from "./FunctionCallRequest";
 export * from "./FunctionCallResponse";
+export * from "./YieldRequest";
+export * from "./YieldResponse";

@@ -9,7 +9,11 @@ export interface EvaluateScriptResponse extends GenericResponse<"result">{
     /** The result value */
     result: ScriptValue;
 
-    /** Optionally includes the global variables that were accessed during script evaluation */
+    /**
+     * Optionally includes the global variables that were accessed during script evaluation.
+     * 
+     * This property is omitted unless the script is evaluated with the `track` option.
+     */
     vars?: Map<string, TrackedVariable>;
 
     /** The value assigned to `this.refresh` during script evaluation */
