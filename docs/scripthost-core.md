@@ -21,6 +21,8 @@ The scripthost message protocol and core utilities
 |  [isInitializeResponse(thing)](./scripthost-core.isinitializeresponse.md) | Determines whether something is a [InitializeResponse](./scripthost-core.initializeresponse.md) |
 |  [isPingRequest(thing)](./scripthost-core.ispingrequest.md) | Determines whether something is a [PingRequest](./scripthost-core.pingrequest.md) |
 |  [isPingResponse(thing)](./scripthost-core.ispingresponse.md) | Determines whether something is a [PingResponse](./scripthost-core.pingresponse.md) |
+|  [isYieldRequest(thing)](./scripthost-core.isyieldrequest.md) | Determines whether something is a [YieldRequest](./scripthost-core.yieldrequest.md) |
+|  [isYieldResponse(thing)](./scripthost-core.isyieldresponse.md) | Determines whether something is a [YieldResponse](./scripthost-core.yieldresponse.md) |
 
 ## Interfaces
 
@@ -37,6 +39,7 @@ The scripthost message protocol and core utilities
 |  [ScriptObject](./scripthost-core.scriptobject.md) | A script object |
 |  [ScriptSandbox](./scripthost-core.scriptsandbox.md) | A sandbox in which scripts are run |
 |  [TrackedVariable](./scripthost-core.trackedvariable.md) | A tracked variable |
+|  [YieldRequest](./scripthost-core.yieldrequest.md) | The message that is sent from the underlying sandbox when script execution is yielded. |
 
 ## Type Aliases
 
@@ -47,4 +50,5 @@ The scripthost message protocol and core utilities
 |  [PingResponse](./scripthost-core.pingresponse.md) | The message that is sent to in response to a ping |
 |  [ScriptSandboxFactory](./scripthost-core.scriptsandboxfactory.md) | Alias for a function that construct [ScriptSandbox](./scripthost-core.scriptsandbox.md) instances |
 |  [ScriptValue](./scripthost-core.scriptvalue.md) | A script value |
+|  [YieldResponse](./scripthost-core.yieldresponse.md) | The response that is sent back to the sandbox to continue a yielded script |
 

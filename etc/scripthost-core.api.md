@@ -32,6 +32,7 @@ export interface FunctionCallRequest extends GenericMessage<"call"> {
     correlationId: string;
     idempotent: boolean;
     key: string;
+    written?: Map<string, number>;
 }
 
 // @public
@@ -92,6 +93,12 @@ export function isPingRequest(thing: unknown): thing is PingRequest;
 export function isPingResponse(thing: unknown): thing is PingResponse;
 
 // @public
+export function isYieldRequest(thing: unknown): thing is YieldRequest;
+
+// @public
+export function isYieldResponse(thing: unknown): thing is YieldResponse;
+
+// @public
 export type PingRequest = GenericMessage<"ping">;
 
 // @public
@@ -119,5 +126,14 @@ export interface TrackedVariable extends Partial<ScriptObject> {
     read?: number;
     write?: number;
 }
+
+// @public
+export interface YieldRequest extends GenericMessage<"yield"> {
+    correlationId: string;
+    written?: Map<string, number>;
+}
+
+// @public
+export type YieldResponse = GenericResponse<"continue">;
 
 ```

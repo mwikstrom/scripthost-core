@@ -21,4 +21,5 @@ export interface FunctionCallRequest extends GenericMessage<"call">
 |  [correlationId](./scripthost-core.functioncallrequest.correlationid.md) | string | Unique identifier of the message that caused script evaluation |
 |  [idempotent](./scripthost-core.functioncallrequest.idempotent.md) | boolean | Specifies whether the function is called from an idempotent script |
 |  [key](./scripthost-core.functioncallrequest.key.md) | string | The function that shall be called |
+|  [written?](./scripthost-core.functioncallrequest.written.md) | Map&lt;string, number&gt; | <i>(Optional)</i> Optionally includes the global variables that were written during script evaluation, before the current function call.<!-- -->The values of the provided map represents the version of the global scope that became current after the corresponding variable was last written.<!-- -->This property is omitted unless the script is evaluated with the <code>track</code> option. |
 

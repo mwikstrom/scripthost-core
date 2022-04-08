@@ -4,7 +4,9 @@
 
 ## EvaluateScriptResponse.vars property
 
-Optionally includes the global variables that were accessed during script evaluation
+Optionally includes the global variables that were accessed during script evaluation.
+
+This property is omitted unless the script is evaluated with the `track` option.
 
 <b>Signature:</b>
 
