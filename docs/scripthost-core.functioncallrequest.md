@@ -11,7 +11,7 @@ The message that is sent from the underlying sandbox to invoke a function expose
 ```typescript
 export interface FunctionCallRequest extends GenericMessage<"call"> 
 ```
-<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)<!-- -->&lt;"call"&gt;
+<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)
 
 ## Properties
 

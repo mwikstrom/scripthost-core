@@ -11,7 +11,7 @@ Generic response
 ```typescript
 export interface GenericResponse<T extends string = string> extends GenericMessage<T> 
 ```
-<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)<!-- -->&lt;T&gt;
+<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)
 
 ## Properties
 

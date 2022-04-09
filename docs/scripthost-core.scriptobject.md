@@ -11,5 +11,5 @@ A script object
 ```typescript
 export interface ScriptObject extends Record<string, ScriptValue> 
 ```
-<b>Extends:</b> Record&lt;string, [ScriptValue](./scripthost-core.scriptvalue.md)<!-- -->&gt;
+<b>Extends:</b> Record&lt;string, [ScriptValue](./scripthost-core.scriptvalue.md)
 

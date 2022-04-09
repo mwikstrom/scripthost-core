@@ -11,7 +11,7 @@ The message that is sent to initialize the underlying sandbox
 ```typescript
 export interface InitializeRequest extends GenericMessage<"init"> 
 ```
-<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)<!-- -->&lt;"init"&gt;
+<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)
 
 ## Properties
 

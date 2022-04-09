@@ -11,7 +11,7 @@ The message that is sent to request script evaluation
 ```typescript
 export interface EvaluateScriptRequest extends GenericMessage<"eval"> 
 ```
-<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)<!-- -->&lt;"eval"&gt;
+<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)
 
 ## Properties
 

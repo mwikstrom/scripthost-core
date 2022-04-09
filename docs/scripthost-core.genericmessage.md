@@ -11,7 +11,7 @@ Generic message
 ```typescript
 export interface GenericMessage<T extends string = string> extends Partial<ScriptObject> 
 ```
-<b>Extends:</b> Partial&lt;[ScriptObject](./scripthost-core.scriptobject.md)<!-- -->&gt;
+<b>Extends:</b> Partial&lt;[ScriptObject](./scripthost-core.scriptobject.md)
 
 ## Properties
 

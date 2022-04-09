@@ -11,7 +11,7 @@ The response that is sent when an error occurred
 ```typescript
 export interface ErrorResponse extends GenericResponse<"error"> 
 ```
-<b>Extends:</b> [GenericResponse](./scripthost-core.genericresponse.md)<!-- -->&lt;"error"&gt;
+<b>Extends:</b> [GenericResponse](./scripthost-core.genericresponse.md)
 
 ## Properties
 

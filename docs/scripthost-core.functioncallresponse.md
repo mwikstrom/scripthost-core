@@ -11,7 +11,7 @@ The response that is sent back to the sandbox after a successful function call
 ```typescript
 export interface FunctionCallResponse extends GenericResponse<"return"> 
 ```
-<b>Extends:</b> [GenericResponse](./scripthost-core.genericresponse.md)<!-- -->&lt;"return"&gt;
+<b>Extends:</b> [GenericResponse](./scripthost-core.genericresponse.md)
 
 ## Properties
 

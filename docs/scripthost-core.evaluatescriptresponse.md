@@ -11,7 +11,7 @@ The response that is sent back after successful script evaluation
 ```typescript
 export interface EvaluateScriptResponse extends GenericResponse<"result"> 
 ```
-<b>Extends:</b> [GenericResponse](./scripthost-core.genericresponse.md)<!-- -->&lt;"result"&gt;
+<b>Extends:</b> [GenericResponse](./scripthost-core.genericresponse.md)
 
 ## Properties
 

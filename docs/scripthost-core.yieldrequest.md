@@ -11,7 +11,7 @@ The message that is sent from the underlying sandbox when script execution is yi
 ```typescript
 export interface YieldRequest extends GenericMessage<"yield"> 
 ```
-<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)<!-- -->&lt;"yield"&gt;
+<b>Extends:</b> [GenericMessage](./scripthost-core.genericmessage.md)
 
 ## Properties
 

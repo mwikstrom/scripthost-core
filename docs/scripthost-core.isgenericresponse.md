@@ -17,7 +17,7 @@ export declare function isGenericResponse<T extends string>(thing: unknown, type
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  thing | unknown | The thing to test |
-|  type | string | Optionally specifies the message type to test |
+|  type | string | <i>(Optional)</i> Optionally specifies the message type to test |
 
 <b>Returns:</b>
 
