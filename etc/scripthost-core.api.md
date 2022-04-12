@@ -8,6 +8,8 @@
 export interface ErrorResponse extends GenericResponse<"error"> {
     // (undocumented)
     message: string;
+    refresh?: ScriptValue;
+    vars?: Map<string, TrackedVariable>;
 }
 
 // @public

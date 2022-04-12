@@ -18,4 +18,6 @@ export interface ErrorResponse extends GenericResponse<"error">
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [message](./scripthost-core.errorresponse.message.md) | string |  |
+|  [refresh?](./scripthost-core.errorresponse.refresh.md) | [ScriptValue](./scripthost-core.scriptvalue.md) | <i>(Optional)</i> The value assigned to <code>this.refresh</code> during script evaluation.<!-- -->This property is omitted unless the error occurred during script evaluation and may be omitted unless the script assigned <code>this.refresh</code>. |
+|  [vars?](./scripthost-core.errorresponse.vars.md) | Map&lt;string, [TrackedVariable](./scripthost-core.trackedvariable.md)<!-- -->&gt; | <i>(Optional)</i> Optionally includes the global variables that were accessed during script evaluation.<!-- -->This property is omitted unless the error occurred during script evaluation and may be omitted unless the script is evaluated with the <code>track</code> option. |
 
