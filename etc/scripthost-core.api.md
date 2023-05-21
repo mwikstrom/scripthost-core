@@ -121,7 +121,7 @@ export interface ScriptSandbox {
 export type ScriptSandboxFactory = (this: void) => ScriptSandbox;
 
 // @public
-export type ScriptValue = (boolean | null | undefined | number | BigInt | string | Date | RegExp | Blob | File | FileList | ArrayBuffer | ArrayBufferView | ImageBitmap | ImageData | Array<ScriptValue> | Map<ScriptValue, ScriptValue> | Set<ScriptValue> | ScriptObject);
+export type ScriptValue = (void | boolean | null | undefined | number | BigInt | string | Date | RegExp | Blob | File | FileList | ArrayBuffer | ArrayBufferView | ImageBitmap | ImageData | Array<ScriptValue> | Map<ScriptValue, ScriptValue> | Set<ScriptValue> | ScriptObject);
 
 // @public
 export interface TrackedVariable extends Partial<ScriptObject> {

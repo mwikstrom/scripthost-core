@@ -9,7 +9,7 @@ A script value
 <b>Signature:</b>
 
 ```typescript
-export declare type ScriptValue = (boolean | null | undefined | number | BigInt | string | Date | RegExp | Blob | File | FileList | ArrayBuffer | ArrayBufferView | ImageBitmap | ImageData | Array<ScriptValue> | Map<ScriptValue, ScriptValue> | Set<ScriptValue> | ScriptObject);
+export declare type ScriptValue = (void | boolean | null | undefined | number | BigInt | string | Date | RegExp | Blob | File | FileList | ArrayBuffer | ArrayBufferView | ImageBitmap | ImageData | Array<ScriptValue> | Map<ScriptValue, ScriptValue> | Set<ScriptValue> | ScriptObject);
 ```
 <b>References:</b> [ScriptValue](./scripthost-core.scriptvalue.md)<!-- -->, [ScriptObject](./scripthost-core.scriptobject.md)
 

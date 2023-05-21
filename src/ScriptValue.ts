@@ -3,6 +3,7 @@
  * @public
  */
 export type ScriptValue = (
+    void |
     boolean |
     null |
     undefined |
