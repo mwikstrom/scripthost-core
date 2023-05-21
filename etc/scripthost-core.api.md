@@ -56,6 +56,7 @@ export interface GenericResponse<T extends string = string> extends GenericMessa
 // @public
 export interface InitializeRequest extends GenericMessage<"init"> {
     funcs: Set<string>;
+    readOnlyGlobals?: boolean;
 }
 
 // @public

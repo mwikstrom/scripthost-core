@@ -18,4 +18,5 @@ export interface InitializeRequest extends GenericMessage<"init">
 |  Property | Type | Description |
 |  --- | --- | --- |
 |  [funcs](./scripthost-core.initializerequest.funcs.md) | Set&lt;string&gt; | Keys of exposed functions |
+|  [readOnlyGlobals?](./scripthost-core.initializerequest.readonlyglobals.md) | boolean | <i>(Optional)</i> Specifies whether global variables shall be read-only |
 

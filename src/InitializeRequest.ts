@@ -7,6 +7,9 @@ import { GenericMessage, isGenericMessage } from "./GenericMessage";
 export interface InitializeRequest extends GenericMessage<"init"> {
     /** Keys of exposed functions */
     funcs: Set<string>;
+
+    /** Specifies whether global variables shall be read-only */
+    readOnlyGlobals?: boolean;
 }
 
 /**
